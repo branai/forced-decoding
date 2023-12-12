@@ -6,10 +6,10 @@ import sys
 
 api_url = ''
 if len(sys.argv) > 1:
-    api_url = sys.argv[1]
+    api_url = f"http://{sys.argv[1]}/api/getConfidence"
     print("API URL:", api_url)
 else:
-    print("Usage: python3 detect_ans.py <api-url>")
+    print("Usage: python3 detect_ans.py <api-ip>")
     exit()
 
 
