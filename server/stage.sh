@@ -3,7 +3,7 @@
 #cd egs/wsj/s5/
 #cp -r forced_vit/* .
 
-
+mkdir model_files
 cd model_files
 wget http://kaldi-asr.org/models/13/0013_librispeech_v1_chain.tar.gz
 wget http://kaldi-asr.org/models/13/0013_librispeech_v1_extractor.tar.gz
