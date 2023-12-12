@@ -21,15 +21,15 @@ To set up the backend / decoding, follow these steps on the Ubuntu machine
 4. `docker run -it -v 
 <PATH_TO_REPO>/server:/opt/kaldi/egs/wsj/s5/forced_vit kaldiasr/kaldi 
 /bin/bash`
-5. In the container, run:
-a. `cd egs/wsj/s5/`
-b. `cp -r forced_vit/* .`
-c. `./stage.sh`
-d. `./make_forced.sh`
+5. In the container, run:<br>
+a. `cd egs/wsj/s5/`<br>
+b. `cp -r forced_vit/* .`<br>
+c. `./stage.sh`<br>
+d. `./make_forced.sh`<br>
 e. `./forced_single.sh` <-- Just to set up speech recognition stuff, will 
 return an error.
 7. Detach from the container (make sure it stays running)
-8. Run the server script `app.py`
+8. Run the server script `app.py`<br>
 `Usage: python3 app.py <docker-container-id>`
 
 ### Client Side
