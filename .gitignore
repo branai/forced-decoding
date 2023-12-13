@@ -1,3 +1,5 @@
 server/model_files
 .DS_Store
 server/client_sound.wav
+client/HS_QUIZ_TRUE.wav
+client/HS_QUIZ_TRANS.txt

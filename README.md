@@ -45,3 +45,5 @@ here: `/opt/kaldi/egs/wsj/s5/client_sound.wav`
 Then run:  `./forced_single.sh "<WORDS-TO-DECODE>"`
 
 Running this for the first time will take a while.
+
+Also, `client/split_test_data.py` is included to show how I roughly split audio given the youtube transcript when testing the decoder for resilience.
