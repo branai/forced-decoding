@@ -17,7 +17,7 @@ To set up the backend / decoding, follow these steps on the Ubuntu machine
 (as root):
 1. Install Docker.
 2. `docker pull kaldiasr/kaldi`
-3. Clone this directory.
+3. Clone this repository.
 4. `docker run -it -v 
 <PATH_TO_REPO>/server:/opt/kaldi/egs/wsj/s5/forced_vit kaldiasr/kaldi 
 /bin/bash`
