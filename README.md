@@ -1,7 +1,7 @@
 # forced-decoding
-This repository contains 
+This repository contains<br> 
 A) the files needed to perform forced decoding given a piece of audio and 
-the "ground truth" to be obtained from the decoding.
+the "ground truth" to be obtained from the decoding.<br>
 B) the files needed to turn this into an API.
 
 Disclaimer: All of the API work here is very primitive and should only be 
