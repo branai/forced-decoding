@@ -27,9 +27,9 @@ def get_confidence():
 
         ground_truth = request.json['ground_truth']
 
-        cmd_dbg_make = f'docker exec -it -w /opt/kaldi/egs/wsj/s5 {container_string} /bin/bash /opt/kaldi/egs/wsj/s5/make_forced.sh'
-        res_dbg_make = subprocess.run(cmd_dbg_make, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        print(res_dbg_make.stdout)
+        #cmd_dbg_make = f'docker exec -it -w /opt/kaldi/egs/wsj/s5 {container_string} /bin/bash /opt/kaldi/egs/wsj/s5/make_forced.sh'
+        #res_dbg_make = subprocess.run(cmd_dbg_make, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        #print(res_dbg_make.stdout)
 
 
         cmd_run = f'docker exec -it -w /opt/kaldi/egs/wsj/s5 {container_string} /bin/bash /opt/kaldi/egs/wsj/s5/forced_single.sh "{ground_truth}"'
