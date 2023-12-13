@@ -35,7 +35,7 @@ cp -r forced_vit/* .
 
 ### Client Side
 No set up needed for client side, just run client script `detect_ans.py` 
-with the IP of the server.
+with the IP of the server.<br>
 `Usage: python3 detect_ans.py <api-ip>`
 
 ## Testing
