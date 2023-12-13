@@ -26,8 +26,7 @@ a. `cd egs/wsj/s5/`<br>
 b. `cp -r forced_vit/* .`<br>
 c. `./stage.sh`<br>
 d. `./make_forced.sh`<br>
-e. `./forced_single.sh` <-- Just to set up speech recognition stuff, will 
-return an error.
+e. `./setup_speech.sh`<br>
 7. Detach from the container (make sure it stays running)
 8. Run the server script `app.py`<br>
 `Usage: python3 app.py <docker-container-id>`
