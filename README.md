@@ -25,7 +25,7 @@ To set up the backend / decoding, follow these steps on the Ubuntu machine
 ```bash
 cd egs/wsj/s5/
 cp -r forced_vit/* .
-./stage.sh`<br>
+./stage.sh`
 ./make_forced.sh
 ./setup_speech.sh
 ```
