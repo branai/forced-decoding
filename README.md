@@ -22,7 +22,7 @@ To set up the backend / decoding, follow these steps on the Ubuntu machine
 <PATH_TO_REPO>/server:/opt/kaldi/egs/wsj/s5/forced_vit kaldiasr/kaldi 
 /bin/bash`
 5. In the container, run:<br>
-```console
+```bash
 cd egs/wsj/s5/
 cp -r forced_vit/* .
 ./stage.sh`<br>
