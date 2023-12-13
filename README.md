@@ -22,11 +22,13 @@ To set up the backend / decoding, follow these steps on the Ubuntu machine
 <PATH_TO_REPO>/server:/opt/kaldi/egs/wsj/s5/forced_vit kaldiasr/kaldi 
 /bin/bash`
 5. In the container, run:<br>
-a. `cd egs/wsj/s5/`<br>
-b. `cp -r forced_vit/* .`<br>
-c. `./stage.sh`<br>
-d. `./make_forced.sh`<br>
-e. `./setup_speech.sh`<br>
+```console
+cd egs/wsj/s5/
+cp -r forced_vit/* .
+./stage.sh`<br>
+./make_forced.sh
+./setup_speech.sh
+```
 7. Detach from the container (make sure it stays running)
 8. Run the server script `app.py`<br>
 `Usage: python3 app.py <docker-container-id>`
